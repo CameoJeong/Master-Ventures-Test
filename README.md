@@ -102,5 +102,15 @@ curl -X GET \
 
 
 ## TEST-INSTRUCTIONS:
-npm i
-npm start
+
+ > Install dependencies
+ 
+ ```bash
+ npm i
+ ``` 
+ 
+ > Run the application
+ 
+ ```bash
+ npm run dev
+ ```

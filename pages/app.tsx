@@ -13,10 +13,6 @@ export const App = () => {
 
 	function openModal() {
 		setIsOpen(true);
-		console.log(clickedItems);
-		console.log(typeof(clickedItems));
-		console.log(Object.entries(clickedItems));
-		console.log(Object.values((Object.entries(clickedItems))));
 	}
 
 	function afterOpenModal() {
@@ -65,7 +61,7 @@ export const App = () => {
 					{
 						Object.entries(clickedItems).map(item => {
 							return (
-								<li key={Object.keys(item)[0]}>{Object.values(item)[0]} : {Object.values(item)[1]}</li>
+								<li key={Object.values(item)[0]}>{Object.values(item)[0]} : {Object.values(item)[1]}</li>
 							)
 						})
 					}
