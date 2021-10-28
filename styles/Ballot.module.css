@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid gray;
+  width: 30%;
+  margin: 10px 1.6%;
+}
+
+.mainSelected {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid gray;
+  width: 30%;
+  margin: 10px 1.6%;
+  background-color: blue;
+}
+
+@media (max-width: 640px) {
+  .main {
+    width: 100%;
+  }
+  .mainSelected {
+    width: 100%;
+  }
+}
+
+.title
+{
+  font-size: 24px;
+}
+
+.main:hover {
+  color: #cccccc;
+  background-color: #34ac9c;
+}
+
+.image {
+  position: relative;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.button {
+  background-color: gray;
+  border: none;
+  color: white;
+  margin: 10px 5px;
+  padding: 5px 15px 5px 15px;
+}
+
+.button:hover {
+  color: black;
+  cursor: pointer;
+}

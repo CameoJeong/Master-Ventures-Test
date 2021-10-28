@@ -1,0 +1,39 @@
+.main {
+  margin: 120px;
+  font-family: Roboto;
+  color: #FFFFFF;
+  background-color: #0D2436;  
+}
+
+@media (max-width: 640px) {
+  .main {
+    margin: 0px;
+  }
+}
+
+.button
+{
+  width: 200px;
+  height: 80px;
+  background-color: yellow;
+  color: green;
+  font-size: 32px;
+  float: right;
+}
+
+@media (max-width: 640px) {
+  .button{
+    width: 100%;
+  }
+}
+
+.close {
+  font-size: 80px;
+  border: none;
+  background-color: transparent;
+  float: right;
+}
+
+.modalContents {
+  margin-top: 100px;
+}
